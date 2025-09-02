@@ -9,33 +9,87 @@
 </head>
 
 <body>
-    <main class="container mx-auto">
-    <header class="flex items-center justify-between  pt-5 mx-10">
-        <nav class=" ">
+    <video src="src/assets/images/welcome.mp4" autoplay loop muted
+        class="absolute -z-10 object-cover w-full h-screen"></video>
 
-            <ul class="flex gap-5 text-gray-500 ">
-                <li> BUSY Bar</li>
-                <li><a href="#" class="underline">Boutique</a></li>
-                <li><a href="#" class="underline">Telechargement </a></li>
-                <li><a href="#" class="underline">Blog</a></li>
-            </ul>
-        </nav>
-        <img src="src/assets/images/Mr Tsabeng.png" alt="" class="w-12 rounded-2xl grayscale-100 hover:grayscale-0 duration-200 hover:-translate-y-2"  />
+    <main class="container mx-auto min-h-screen  ">
+        <header class="flex items-center justify-between  pt-5 mx-10">
+            <nav class=" ">
 
-    </header>
+                <ul class="flex gap-5 text-gray-500 ">
+                    <li> BUSY Bar</li>
+                    <li><a href="#" class="underline">Boutique</a></li>
+                    <li><a href="#" class="underline">Telechargement </a></li>
+                    <li><a href="#" class="underline">Blog</a></li>
+                </ul>
+            </nav>
+            <a href="#"><img src="src/assets/images/Mr Tsabeng.png" alt=""
+                    class="w-12 rounded-2xl grayscale-100 hover:grayscale-0 duration-200 hover:-translate-y-2" /></a>
+
+        </header>
 
 
-    <section class="h-screen text-xl flex justify-center mx-auto  flex-col max-w-[550px] ">
-        <p>
-            <span class="font-bold">Busy Bar</span> est un dispositif multi-outil de productivite avec un ecrans Led
-            pixerise .Minuteur de concentration avec une fonction de locage des distractions sur votre telephones et Pc
-            .Entierement personalisable ,open-source et pres pour les maisons connectee.
+        <section class="text-xl mt-[40vh] flex  mx-auto mb-20 flex-col max-w-[550px] grow  ">
+            <p>
+                <span class="font-bold">Busy Bar</span> est un dispositif multi-outil de productivite avec un ecrans Led
+                pixerise .Minuteur de concentration avec une fonction de locage des distractions sur votre telephones et
+                Pc.Entierement personalisable ,open-source et pres pour les maisons connectee.
 
-        </p>
-        <button
-            class="bg-orange-500 text-white px-14 py-4  rounded-lg hover:bg-black duration-1000 cursor-pointer mx-auto mt-10 block">Acheter</button>
-    </section>
-</main>
+            </p>
+            <button
+                class="bg-orange-500 text-white px-14 py-4  rounded-lg hover:bg-black duration-1000 cursor-pointer mx-auto mt-10 block">Acheter</button>
+        </section>
+
+
+        <section class="grid  grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mx-10 pb-10 opacity-80  mt-32 md:mt-0 ">
+            <div class="flex items-start gap-3 ">
+                <img src="src/assets/images/feature-one.svg" alt="Fonctionnalite 1" class="w-14" />
+                
+                <div>
+                    <h3 class="text-xl mb-3">Outil de productivite </h3>
+
+                    <div class="text-sm"> Blocage des distractions, message Busy personalise, minuteur de concentration,synchronisation
+                        multiplatforme</div>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-3 ">
+                <img src="src/assets/images/feature-two.svg" alt="Fonctionnalite 2" class="w-14" />
+                
+                <div>
+                    <h3 class="text-xl mb-3"> Application et intergration</h3>
+
+                    <div class="text-sm"> Biblioteques d'application ,connexion a des logiciels tiers , integrations avec les evenements de
+                    calendrier et les appels</div>
+                </div>
+            </div>
+             <div class="flex items-start gap-3 " >
+                <img src="src/assets/images/feature-three.svg" alt="Fonctionnalite 3" class="w-14"/>
+                
+                <div >
+                    <h3 class="text-xl mb-3">Support maison connectee </h3>
+
+                    <div class="text-sm"> Connectez-vous a google Home et Apple Home via le protocole Matter</div>
+                </div>
+            </div>
+             <div class="flex items-start gap-3">
+                <img src="src/assets/images/feature-four.svg" alt="Fonctionnalite 4" class="w-14" />
+                
+                <div>
+                    <h3 class="text-xl mb-3">Pour les developpeurs </h3>
+
+                    <div class="text-sm"> Api HTTP ouverte,Oppen-source,biblioteque python /Go</div>
+                </div>
+            </div>
+
+            
+        </section>
+
+    </main>
+
+
+
+
 </body>
 
 </html>
